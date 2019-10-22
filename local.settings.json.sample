@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "<storage connection string - not in VNet>",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "EventHubsConnectionString": "<event hub connection string - in a VNet>"
+    }
+}
